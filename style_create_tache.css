@@ -1,0 +1,52 @@
+/* Couleurs de la charte */
+:root {
+    --couleur-principale: #1791c8; /* Couleur principale */
+    --couleur-secondaire: #666666; /* Couleur secondaire */
+    --couleur-fond: #d9d9d9; /* Couleur de fond */
+}
+
+/* Style général pour le formulaire */
+form {
+    
+    max-width: 500px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+    padding: 5px;
+    background-color: var(--couleur-fond); /* Utilisation de la couleur de fond définie */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+/* Style pour les champs de saisie */
+.remplir {
+    margin-bottom: 10px; /* Espacement entre les champs */
+}
+
+.remplir label {
+    display: block; /* Afficher les labels sur une ligne différente */
+    margin-bottom: 5px; /* Espacement entre le label et le champ */
+}
+
+.remplir input[type="text"],
+.remplir input[type="date"],
+.remplir select {
+    width: 95%; /* Largeur maximale des champs */
+    padding: 5px; /* Espacement interne des champs */
+    border: 1px solid var(--couleur-secondaire); /* Utilisation de la couleur secondaire pour la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclure la bordure et le rembourrage dans la largeur/hauteur totale */
+}
+
+/* Style pour le bouton */
+#bouton {
+    width: 100%; /* Largeur maximale du bouton */
+    padding: 10px; /* Espacement interne du bouton */
+    background-color: var(--couleur-principale); /* Utilisation de la couleur principale pour le fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la souris */
+}
+
+/* Style pour le bouton au survol */
+#bouton:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}

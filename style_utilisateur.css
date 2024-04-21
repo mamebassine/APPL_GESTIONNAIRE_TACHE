@@ -1,0 +1,41 @@
+ /* Couleurs de la charte */
+:root {
+    --couleur-principale: #1791c8; /* Couleur principale */
+    --couleur-secondaire: #666666; /* Couleur secondaire */
+    --couleur-fond: #d9d9d9; /* Couleur de fond */
+}
+
+/* Style général pour le formulaire */
+form {
+    max-width: 220px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+    padding: 15px;
+    background-color: var(--couleur-fond); /* Utilisation de la couleur de fond définie */
+    border-radius: 3px; /* Coins arrondis */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Ombre légère autour du formulaire */
+}
+label {
+    display: block;
+    margin-bottom: -2px;
+    color: var(--couleur-secondaire); /* Couleur secondaire pour les étiquettes */
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+select {
+    width: 100%;
+    padding: 1px;
+    margin-bottom: -1px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    background-color: var(--couleur-principale); /* Utilisation de la couleur principale pour le bouton */
+    color: #fff;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #127ba3; /* Légère variation de couleur au survol */
+}
+

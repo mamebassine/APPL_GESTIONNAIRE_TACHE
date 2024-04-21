@@ -1,0 +1,104 @@
+/* Style général pour le corps de la page */
+body { 
+    box-shadow: 10 110 90px rgba(0, 0, 0, 0.1); /* Ombre légère autour du formulaire */
+    font-family: Arial, sans-serif;
+    font-size: 25px; /* Augmente la taille de la police à 20 pixels */
+    background-image: url('image/photo1.png');
+    background-size: 60%; /* Vous pouvez ajuster cette valeur selon le niveau de zoom souhaité */
+    background-position: center;
+    color: #0e0b0b;
+    
+}
+/* Style pour le header */
+header {
+    
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Alignement vertical au centre */
+    justify-content: space-between; /* Répartition des éléments sur la ligne */
+    background-color: #1791c1; /* Couleur de fond du header */
+    padding: 9px;
+    height: 90px;
+    width: 98%;
+    position: fixed;
+    top: 0;
+    
+}
+
+/* Style pour le logo */
+.logo img {
+    width: 113px; /* Largeur du logo */
+    height: auto;
+    
+}
+
+/* Style pour la navigation */
+nav {
+    display: flex; /* Utilisation de flexbox */
+}
+
+nav a {
+    margin-right: 10px; /* Espacement entre les liens */
+    text-decoration: none;
+    color: #0e0b0b; /* Couleur des liens */
+}
+
+
+/* Réduire la marge du titre pour le recentrer */
+h1 {
+    margin-top: 10%;
+    text-align: center;
+       
+    }
+
+/* Style pour les boutons */
+.buttons {
+    display: flex; /* Utilisation de flexbox pour aligner les boutons horizontalement */
+    justify-content: center; /* Alignement des boutons à droite */
+    margin-right: 20px; /* Espacement entre les boutons et la navigation */
+    margin-top: 11%;
+}
+
+.buttons button {
+    
+    padding: 17px 22px; /* Espacement interne des boutons */
+    margin-left: 90px; /* Espacement entre les boutons */
+    background-color: var(--couleur-principale); /* Couleur de fond des boutons */
+    color: black; /* Couleur du texte des boutons */
+    border: 5 solid ace-between; /* Répartition des éléments sur la ligne */
+    background-color: #1791c1 ; /* Suppression de la bordure des boutons */
+    border-radius: 25px; /* Coins arrondis des boutons */
+    cursor: pointer; /* Curseur de la souris au survol */
+}
+
+.buttons button:hover {
+    background-color: ace-between; /* Répartition des éléments sur la ligne */
+    background-color: #d9d9d9; /* Changement de couleur au survol */
+   
+    
+}
+
+
+
+/* Style pour le footer */
+footer {
+    background-color: #1791c1; /* Couleur de fond du footer */
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+}
+
+/* Style pour les sections */
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond des sections */
+    margin: 20px auto; /* Espacement entre les sections et des bords de la page */
+    max-width: 800px; /* Largeur maximale des sections */
+}
+
+/* Style pour les paragraphes */
+section p {
+    line-height: 1.6; /* Hauteur de ligne des paragraphes */
+    margin-bottom: 15px; /* Espacement entre les paragraphes */
+}
